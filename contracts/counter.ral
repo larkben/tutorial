@@ -1,0 +1,14 @@
+/// @ author: larkben
+/// @ title: Simple Counter Contract
+/// @ description: A basic counter contract that allows incrementing a count value.
+
+Contract Counter(
+    mut count: U256
+) {
+
+    /// @ notice: Increments the counter by 1.
+    @using(checkExternalCaller = false, updateFields = true)
+    pub fn increment() -> (){
+        count = count + 1
+    }
+}

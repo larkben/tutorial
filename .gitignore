@@ -4,3 +4,4 @@ alephium-stack
 node_modules
 .vscode
 .DS_Store
+.ralph-lsp
