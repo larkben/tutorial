@@ -1,0 +1,6 @@
+# secrets // never push .env file unless you want to get robbed
+.env
+alephium-stack
+node_modules
+.vscode
+.DS_Store
